@@ -1,3 +1,20 @@
+<codebase>
+<project_structure>
+.
+├── .gitignore
+├── deposit.py
+└── pyproject.toml
+
+0 directories, 3 files
+</project_structure>
+
+<file src=".gitignore">
+.venv
+.env
+
+</file>
+
+<file src="deposit.py">
 import os
 import sys
 import time
@@ -67,3 +84,25 @@ print('Waiting for deposit...')
 
 client.eth.wait_for_tx(deposit_tx_hash)
 print('...done.')
+</file>
+
+<file src="pyproject.toml">
+[project]
+name = "my-project"
+version = "0.1.0"
+dependencies = [
+    "apexomni",
+    "python-dotenv>=1.0.0",
+    "requests",
+    "web3",
+    "ecdsa",
+    "mpmath",
+    "sympy"
+]
+
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+</file>
+
+</codebase>
