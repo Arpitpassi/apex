@@ -9,7 +9,8 @@ dependencies = [
     "ecdsa",
     "mpmath",
     "sympy",
-    "python-dateutil"
+    "python-dateutil",
+    "numpy"
 ]
 
 [build-system]
