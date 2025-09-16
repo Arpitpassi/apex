@@ -1,0 +1,10 @@
+# Ethereum Configuration
+ETH_PRIVATE_KEY=
+# ZK Configuration
+ZK_SEEDS=
+ZK_L2_KEY=l2Key = 
+
+# API Credentials
+API_KEY=
+API_SECRET=
+API_PASSPHRASE=
